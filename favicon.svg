@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="fold" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#a9372e"/>
+      <stop offset="1" stop-color="#d4503f"/>
+    </linearGradient>
+    <linearGradient id="diag" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3ebd8"/>
+      <stop offset="0.6" stop-color="#f3ebd8"/>
+      <stop offset="1" stop-color="#d9cdb2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="#13110d"/>
+  <g transform="translate(512, 512) scale(0.72) translate(-510, -492)">
+    <g fill="none" stroke="#3b3429" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M265 200 L425 122 L755 262"/>
+      <path d="M265 200 V722"/>
+      <path d="M755 262 V784"/>
+      <path d="M595 836 V862"/>
+      <path d="M265 722 L595 862 L755 784"/>
+      <path d="M265 722 L425 650 L595 722"/>
+    </g>
+    <g stroke-linejoin="round" stroke-width="22">
+      <path d="M279 232 L279 708 L419 650 L419 526 Z" fill="url(#fold)" stroke="url(#fold)"/>
+      <path d="M279 222 L420 153 L625 546 L625 818 L604 838 L279 232 Z" fill="url(#diag)" stroke="url(#diag)"/>
+      <path d="M609 352 L747 272 L747 770 L609 840 Z" fill="#f3ebd8" stroke="#f3ebd8"/>
+    </g>
+  </g>
+</svg>
